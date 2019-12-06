@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/complex-credit-card/static/css/main.216d77b3.chunk.css",
+    "main.js": "/complex-credit-card/static/js/main.d3be6d11.chunk.js",
+    "main.js.map": "/complex-credit-card/static/js/main.d3be6d11.chunk.js.map",
+    "runtime-main.js": "/complex-credit-card/static/js/runtime-main.fc53e342.js",
+    "runtime-main.js.map": "/complex-credit-card/static/js/runtime-main.fc53e342.js.map",
+    "static/js/2.4bbcea6b.chunk.js": "/complex-credit-card/static/js/2.4bbcea6b.chunk.js",
+    "static/js/2.4bbcea6b.chunk.js.map": "/complex-credit-card/static/js/2.4bbcea6b.chunk.js.map",
+    "index.html": "/complex-credit-card/index.html",
+    "precache-manifest.448c1d3948ef4118928aec02a4cbd2b1.js": "/complex-credit-card/precache-manifest.448c1d3948ef4118928aec02a4cbd2b1.js",
+    "service-worker.js": "/complex-credit-card/service-worker.js",
+    "static/css/main.216d77b3.chunk.css.map": "/complex-credit-card/static/css/main.216d77b3.chunk.css.map",
+    "static/media/App.css": "/complex-credit-card/static/media/terre-technologie.8d796e3e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc53e342.js",
+    "static/js/2.4bbcea6b.chunk.js",
+    "static/css/main.216d77b3.chunk.css",
+    "static/js/main.d3be6d11.chunk.js"
+  ]
+}
