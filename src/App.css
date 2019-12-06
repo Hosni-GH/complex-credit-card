@@ -1,22 +1,91 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
+  width: 55%;
+  padding: 20px 50px;
+  margin: auto;
+  background-image: url(./terre-technologie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  margin-top: 20px;
+}
+.title-container {
+  color: #fff;
+  text-align: right;
+}
+.title-container h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.chip-container img {
+  width: 20%;
+}
+.footer {
+  color: #fff;
+}
+.footer {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  width:70%;
+}
+.code-valid {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.valid-thru {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.card-number {
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  background-color: rgba(255, 255, 0, 0.56);
+  padding: 0 10px;
+}
+.card-number p {
+  opacity: 0.5;
+}
+p{
+  margin: 5px 0;
+}
+.card-holder {
+  padding: 0 10px;
+}
+p.bold-effect {
+  font-weight: 700;
+  font-size: 35px;
+}
+.month-year p {
+  margin-bottom: -5px;
+}
+i.fas.fa-caret-right {
+  font-size: 30px;
+}
+.month-year {
+  text-align: right;
+}
+.valid-until {
+  margin-right: 5px;
+}
+.App {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #09d3ac;
+.form-container {
+  margin-top: 30px;
+  display: flex;
+  width: 35%;
+  flex-direction: column;
 }
