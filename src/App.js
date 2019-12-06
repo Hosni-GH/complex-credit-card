@@ -16,43 +16,6 @@ class App extends Component {
       third4digit:'****',
       fourth4digit:'****'
     }
- 
-      /*let cardExpiry=event.target.value;
-      let mm=cardExpiry.substr(0,2)
-      if (/^[0-9]*$/.test(cardExpiry)) {
-        if (cardExpiry.substr(0, 2) <= 12){
-          this.setState({
-            validThru: cardExpiry.substr(0, 2) + "/" + cardExpiry.substr(2, 4),
-            valueValidThru:cardExpiry.substr(0, 2) + "/" + cardExpiry.substr(2, 4)
-          });
-        }
-      }
-*/
-
-     
-  
-      /*var patt1 = /[0-9]/g;
-      if (patt1.test(code)){
-
-
-        let x=code.substring(0,2)
-        console.log("x"+x)
-
-       
-        this.setState({
-          validThru:code,
-          valueValidThru:code
-        })
-      }
-      else alert("Enter a valid month")
-     /* var allowedKeys = [8];
-      if (allowedKeys.indexOf(code) !== -1) {
-        return;
-      }
-      event.target.value = event.target.value.replace(
-        /^([1-9]\/|[2-9])$/g, '0$1/' // 3 > 03/
-      );
-      */
   
   }
 
@@ -64,15 +27,21 @@ class App extends Component {
     var patt1 = /[0-9]/g;
       if (patt1.test(event.target.value)){
 // if test  2 d [1..12] this.setState({validThru:event.target.value})
-
-      
-      }
-console.log( "fff")
-
-
-
-    
+  if (event.target.value.substring(0,2).length===2){
+    if (event.target.value.substring(0,2)<13){
+        this.setState({
+          validThru:event.target.value
+        })
+    } else {
+      this.setState({
+        validThru:'**/**'
+      })
+      event.target.value=''
+    return alert('you must enter a valid month')
+      }}
   }
+  }
+
   onChangeCardHolder=(e)=>{
     let name=e.target.value.toUpperCase()
     let regex=/^[a-z A-Z]+$/
